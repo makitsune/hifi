@@ -65,7 +65,7 @@ public:
      * them.
      * <p><strong>Note:</strong> Currently doesn't work.
      * @function DebugDraw.drawRays
-     * @param {Vec3Pair[]} lines - The start and end points of the lines to draw.
+     * @param {Vec3[]} lines - The start and end points of the lines to draw.
      * @param {Vec4} color - The color of the lines. Each component should be in the range <code>0.0</code> &ndash; 
      * <code>1.0</code>, with <code>x</code> = red, <code>y</code> = green, <code>z</code> = blue, and <code>w</code> = alpha.
      * @param {Vec3} [translation=0,0,0] - A translation applied to each line.
