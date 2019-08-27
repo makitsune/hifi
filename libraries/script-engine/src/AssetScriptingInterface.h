@@ -174,7 +174,7 @@ public:
      * Called when Assets.putAsset is complete.
      * @callback Assets~putAssetCallback
      * @param {string} error - contains error message (or null value if no error occured while uploading/mapping the new asset)
-     * @param {Asset~putAssetResult} result - result object containing error or result status of asset upload
+     * @param {Assets~putAssetResult} result - result object containing error or result status of asset upload
      */
 
     /**jsdoc
