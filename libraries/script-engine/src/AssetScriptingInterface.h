@@ -158,7 +158,7 @@ public:
      * Upload Asset data to the ATP Server
      * @function Assets.putAsset
      * @param {Assets.PutOptions} options A PutOptions object with upload parameters
-     * @param {Assets~putAssetCallback} scope[callback] A scoped callback function invoked with (error, results)
+     * @param {Assets~putAssetCallback} scope A scoped callback function invoked with (error, results)
      * @param {function} [callback=undefined]
      */
 
