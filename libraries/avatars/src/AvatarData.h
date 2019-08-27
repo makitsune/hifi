@@ -1150,7 +1150,7 @@ public:
     /**jsdoc
      * @function Avatar.updateAvatarEntity
      * @param {Uuid} entityID - The entity ID.
-     * @param {Array.<byte>} entityData - Entity data.
+     * @param {Array} entityData - Entity byte array data.
      * @deprecated This function is deprecated and will be removed.
      */
     Q_INVOKABLE virtual void updateAvatarEntity(const QUuid& entityID, const QByteArray& entityData);
